@@ -1,4 +1,3 @@
-/*
 package com.example.demo.ControllerTests;
 
 import com.example.demo.TestUtils;
@@ -84,4 +83,3 @@ public class ItemControllerTest {
         Assert.assertEquals(404,response.getStatusCodeValue());
     }
 }
-*/
