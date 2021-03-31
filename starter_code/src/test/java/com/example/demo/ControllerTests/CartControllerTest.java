@@ -1,4 +1,3 @@
-/*
 package com.example.demo.ControllerTests;
 
 import com.example.demo.TestUtils;
@@ -80,9 +79,8 @@ public class CartControllerTest {
         Assert.assertNotNull(response);
 
         response = cartController.removeFromcart(request);
-        */
 /*Cart c = response.getBody();
-        Assertions.assertNull(c);*//*
+        Assertions.assertNull(c);*/
 
 
         request = new ModifyCartRequest();
@@ -130,4 +128,3 @@ public class CartControllerTest {
         return item;
     }
 }
-*/
